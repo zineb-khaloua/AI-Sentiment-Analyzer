@@ -24,11 +24,11 @@ Total comments (blue card)
 
 Tech Stack
 
-Backend: Laravel (PHP)
+Backend: Laravel
 
 Frontend: Blade, Bootstrap, Chart.js, SweetAlert
 
-Database: MySQL (or any Laravel-supported DB)
+Database: MySQL 
 
 AI API: Hugging Face Inference AP
 
