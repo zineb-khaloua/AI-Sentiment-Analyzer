@@ -36,7 +36,7 @@ AI API: Hugging Face Inference AP
 
 Clone the repo
 
-git clone https://github.com/your-username/ai-sentiment-analyzer.git
+git clone https://github.com/zineb-khaloua/AI-Sentiment-Analyzer.git
 cd ai-sentiment-analyzer
 
 
