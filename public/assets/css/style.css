@@ -1,0 +1,164 @@
+        body {
+            background-color: white;
+            font-family: 'Inter', sans-serif;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #3D3D3D;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            padding: 20px;
+        }
+        .sidebar .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .sidebar ul li a:hover {
+            background-color: #FABD19;
+        }
+        .main-content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        header input {
+            padding: 10px;
+            width: 60%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .user-profile {
+            display: flex;
+            align-items: center;
+        }
+        .user-profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .card-positive {
+            background-color: #28a745; 
+            color: white;
+            border-radius: 10px;
+        }
+
+        .card-negative {
+            background-color: #dc3545; 
+            color: white;
+            border-radius: 10px;
+        }
+
+        .card-neutral {
+            background-color: #ffc107; 
+            color: black;
+            border-radius: 10px;
+        }
+
+        .card-total {
+            background-color: #007bff; 
+            color: white;
+            border-radius: 10px;
+        }
+
+
+        
+        .form-section {
+            background: #a2be88;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            margin: 150px auto 0 auto;
+            
+        }
+
+
+      
+        .alert.success {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            border: 1px solid #c3e6cb;
+            font-size: 14px;
+        }
+
+      
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 40px;
+            font-size: 20px;
+
+            color: #333;
+        }
+
+        textarea {
+            width: 90%;
+            height: 200px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 20px;
+           
+            transition: all 0.3s ease;
+        }
+
+        textarea:focus {
+            border-color: #F26546;
+            box-shadow: 0 0 5px rgba(242,101,70,0.5);
+            outline: none;
+        }
+
+        
+        .btn {
+            background: #F26546;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            margin: 20px auto 0 auto; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 500;
+            transition: background 0.3s ease;
+            display: block; 
+        }
+
+
+        .btn:hover {
+            background: #d84f38;
+        }
+
+
+
+
