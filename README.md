@@ -1,6 +1,6 @@
 AI Sentiment Analyzer
-AI Sentiment Analyzer is a Laravel-based web application that uses Hugging Face Transformers API to analyze the sentiment of user comments.
-It classifies comments into Positive, Negative, or Neutral, stores them in a database, and provides an interactive dashboard with charts and statistics.
+AI Sentiment Analyzer is a Laravel-based web application that uses the Hugging Face Transformers API to analyze the sentiment of user comments.
+If you own a store, sell a product, or provide a service, this tool helps you quickly understand customer opinions by categorizing comments as positive, negative, or neutral.
 
 Features
 
